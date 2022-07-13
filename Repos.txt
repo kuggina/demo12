@@ -1,0 +1,134 @@
+ ------------------- *Azure Repos*----------------------------------------------------------------------------------
+
+
+1. What is your scm / vcs tools in your project?
+
+
+Source code : what developers are devloped for the application code.
+Source code managemnet : we can able to track the source code activities.
+What is your SCM / VCS / DVCS : (A) Azure Repos.
+--------------------------------------------------------------------------------------------------------------------
+
+
+2. what is the difference between the centarlized vcs and distrubuted vcs ?
+
+We have a 2 types of VCS are availble.
+
+1. Centralized VCS :
+   It is act as a Client-server model.
+   server always be online.
+   source code activity history we can not trace.
+   example : Subversion (svn), Team foundation server ( TFS)
+
+2. Distributed VCS :
+   In this DVCS each and every developer have their own copy of data.
+   It supports both offline and online operations.
+   source code activity history we can trace.
+   example : Github, Azure Repos,Bitbucket,gitlab
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+3. what is git and github ?
+
+Git vs git hub :
+Git = Bank Account
+Github = Bank
+
+Git : Git is A software
+    :  Git is a Vesrion control
+    : we need to install in local system.
+    : we needs perform CLI operations
+    : By using we can able to track the changes.
+    : open source Licenes
+
+Git Hub : Github is a service.
+        : Github is a Vesrion control system.
+        : we can able to access via Internet ( www.github.com)
+        : we can able to perform GUI operations.
+        : we can able to store the Repositories.
+        : it supports both the Licenes like free and Enterprise.
+
+Git : Version is 2.35.1
+    : https://git-scm.com/download/win
+    : we can able to find 3 ways to perform the Git operations
+      1. Git Bash : we can able to runlinux commends & windows.
+      2. Git CMD : we can able to do git operations via windo
+
+
+Task : i want to deposit my money into bank.
+
+1. How much money i want to deposit.
+2. Go to Bank
+3. Ask the Deposit form
+4. Filling the Deposit form 
+5. Handover the cashier
+6. Take the receipt.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. what are the git commends u are used in your project?
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. How to create a local repos / empty repos ?
+
+How do you create a empty / Local Repositories : git Init.
+Git init - iniatilized the empy Repositories & create a .git folder this will store the all the application acvities
+
+-----------------------------------------------------------------------------------------------------------------
+
+6.how to move your code from local to remote repos ?
+
+I want to move my local repos code into remote Repositories.
+we have a 3 phases in Git.
+
+1. Working Area
+2. Staging Area
+3. Remote Repositories.
+
+  history i.e. act as a Local database.
+Git add - git add --all ( including hidden files )
+          git add < filename >
+          git add . ( Except the Hidden files)
+Git status : 
+Git commit -m "Messgag" 
+Git config :
+   
+    Set your username: git config --global user.name "Lenka Sureshkumar"
+    Set your email address: git config --global user.email "sureshkumar@gmail.com"
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. what is git pull ?
+
+A pull request – also referred to as a merge request – is an event that takes place in software development when a contributor/developer is ready to begin the process of merging new code changes with the main project repository.
+
+git pull -----
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+8. what is git fetch ?
+
+In review, git fetch is a primary command used to download contents from a remote repository.
+
+git fetch <options> <remote name> <branch name>
+
+https://phoenixnap.com/kb/git-commands-cheat-sheet#ftoc-heading-9   use this link for commands
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+9. what is git clone and git fork ?
+10.what is git push ?
+11.what is git merge ?
+12. how to crete a branch ?
+13. how to switch from one btanch to another ?
+14. what is the difference between the git merge and git rebase
+15. what is git stash ?
+16.what is pull request ?
+17. what is branch policies ?
+18.which branching stagies u are used in your project ?
+19.what is git conficlts & how u can able to reslove ?
+20.i want to push few of the commits into remote repos ? git checrry pik.
+21. what is branch security ?
+
